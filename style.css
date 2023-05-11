@@ -1,0 +1,102 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: linear-gradient(rgba(19, 27, 49, 0.75),rgba(16, 24, 43, 0.75)),
+    url(070907_457081.jpg);
+    background-size: cover;
+}
+.img{
+    width: 100px;
+    float: right;
+    height: 100px;
+    border-radius:1000px
+}
+.img2{
+padding-bottom: -30px;
+display: flex;
+}
+header{
+    background-color: rgb(228, 173, 91);
+    padding-top: 30px;
+    padding-bottom: 25px;
+    background-image: url(R.jpg);
+    background-size: cover;
+    opacity: 10;    
+}
+#titulo{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+.enlases{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(209, 209, 222);
+}
+.txt{
+
+    padding-top: 45px;
+}
+.txt2{
+    padding-top: -30px;
+}
+#Javascrip-image{
+    width: 120px;
+    float: right;
+}
+#html-image{
+    width: 250px;
+}
+section img{
+    border-radius: 30px;
+}
+section{
+    background-color: rgb(209, 209, 222);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-me1{
+    margin-left: 50%;
+    border-radius: 30px;
+}
+.about-me2{
+    margin-right: 50%;
+    border-radius: 30px;
+}
+.txt2 p{
+    padding: 10px;
+}
+.txt p{
+    padding: 10px;
+}
+.section{
+    margin-bottom: 10px;
+}
+.atajos{
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+.enlases a{
+    padding-right: 5px;
+    color: rgb(141, 74, 33);
+    text-decoration: none;
+}
+.footer{
+    background-color: rgb(86, 67, 91);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.footer p a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;color: #000;
+}
+
+section:hover{
+    transition: 0.2s;
+    box-shadow: 0 10px 15px -10px #ffffff;
+}
+.footer p a:hover{
+    color: beige;
+    transition: 0.5s;
+}
+
+
