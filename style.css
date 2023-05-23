@@ -4,6 +4,10 @@ body{
     background-image: linear-gradient(rgba(19, 27, 49, 0.75),rgba(16, 24, 43, 0.75)),
     url(070907_457081.jpg);
     background-size: cover;
+    display: block;
+}
+img{
+    display: flex;
 }
 .img{
     width: 100px;
@@ -14,24 +18,25 @@ body{
 .img2{
 padding-bottom: -30px;
 display: flex;
+width: 250px;
 }
 header{
-    background-color: rgb(228, 173, 91);
     padding-top: 30px;
     padding-bottom: 25px;
-    background-image: url(R.jpg);
     background-size: cover;
     opacity: 10;    
 }
 #titulo{
-    text-align: center;
+    display: flex;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: aliceblue;
+    padding-left: 20px;
 }
 .enlases{
+    float: right;
+    display: flex;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(209, 209, 222);
 }
 .txt{
 
@@ -73,17 +78,24 @@ section{
 }
 .atajos{
     margin-bottom: 10px;
-    background-color: aliceblue;
 }
 .enlases a{
-    padding-right: 5px;
-    color: rgb(141, 74, 33);
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.enlases a:hover{
+    color: rgb(255, 0, 234);
+    transition: 0.5s;
 }
 .footer{
-    background-color: rgb(86, 67, 91);
-    padding-top: 50px;
-    padding-bottom: 20px;
+    background-color: rgb(228, 228, 228);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sql{
+    width: 20px;
 }
 .footer p a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -95,7 +107,7 @@ section:hover{
     box-shadow: 0 10px 15px -10px #ffffff;
 }
 .footer p a:hover{
-    color: beige;
+    color: rgb(104, 104, 104);
     transition: 0.5s;
 }
 
